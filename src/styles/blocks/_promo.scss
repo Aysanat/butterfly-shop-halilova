@@ -1,20 +1,52 @@
 .promo {
-  padding: 50px 0;
+  padding-top: 200px;
+  padding-bottom: 214px;
   background-color: lightsteelblue;
-  border-radius: 10px;
+  background-image: url("../images/butterfly_promo.jpg");
+  color: $color-light;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.promo-inner {
-  margin: 0 auto;
-  width: 1024px;
+.promo_background {
+  background-color: #333333;
+  opacity: 40%;
+}
 
-  @media (max-width: 1279px) {
+.promo_inner {
+  margin: 0 auto;
+  width: 1278px;
+
+  /*@media (max-width: 1279px) {
     width: auto;
     max-width: 1024px;
-  }
+  }*/
 }
 
-.promo-ttl {
+.promo_title {
+  padding-bottom: 100px;
+  /*display: inline-block;*/
+  font-family: Open Sans;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 98px;
+}
+
+.promo_button {
+  border: 0;
+  padding: 30px 48px;
+  font-family: Open Sans;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 57px;
+  background-color: $color-bright;
+  color: $color-light;
+  border-radius: 6px;
+}
+
+/*.promo-ttl {
   font-size: $h1-fz-desktop;
   font-weight: $h1-fw;
 
@@ -25,4 +57,4 @@
   @media (max-width: 669px) {
     font-size: $h1-fz-mobile;
   }
-}
+}*/
