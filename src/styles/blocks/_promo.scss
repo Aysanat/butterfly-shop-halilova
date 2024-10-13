@@ -1,6 +1,4 @@
 .promo {
-  padding-top: 200px;
-  padding-bottom: 214px;
   color: $color-light;
   text-align: center;
   background-image: url("../images/butterfly_promo.jpg");
@@ -24,6 +22,7 @@
 }
 
 .promo_title {
+  padding-top: 200px;
   padding-bottom: 100px;
   font-family: Open Sans;
   font-size: 72px;
@@ -33,6 +32,7 @@
 
 .promo_button {
   padding: 30px 48px;
+  margin-bottom: 214px;
   font-family: Open Sans;
   font-size: 42px;
   font-weight: 400;
