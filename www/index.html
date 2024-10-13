@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мой первый проект</title>
+  <title>butterflyshop</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -31,59 +31,71 @@
     </div>
   </header>
 
-  <section class="promo" class="promo_background">
-    <div class="promo_inner">
-      <h1 class="promo_title">Индивидуальный пошив <br> галсутков-бабочек</h1>
-      <button class="promo_button">Заказать бабочку</button>
+  <section class="promo">
+    <div class="promo_fade">
+      <div class="promo_inner">
+        <h1 class="promo_title">Индивидуальный пошив <br> галсутков-бабочек</h1>
+        <button class="promo_button">Заказать бабочку</button>
+      </div>
     </div>
   </section>
 
   <section class="portfolio">
     <div class="portfolio_inner">
       <h2 class="portfolio_title">Наши работы</h2>
-      <ul class="portfolio_list">
-        <li class="portfolio_item">
-          <div class="portfolio_content">
-            <figure>
-              <img src="images/portfolio-1.png" alt="">
-              <figcaption>Бабочка такая</figcaption>
-            </figure>
-          </div>
-        </li>
-        <li class="portfolio_item">
+
+      <div class="portfolio_cards">
+        <div class="card_content">
           <figure>
-            <img src="images/portfolio-2.png" alt="">
-            <figcaption>Бабочка растакая</figcaption>
+            <img class="card_visual" src="images/portfolio-1.png" alt="">
+            <figcaption class="card_text">Бабочка такая</figcaption>
           </figure>
-        </li>
-        <li class="portfolio_item">
+        </div>
+
+        <div class="card_content">
           <figure>
-            <img src="images/portfolio-3.png" alt="">
-            <figcaption>Бабочка сякая</figcaption>
+            <img class="card_visual" src="images/portfolio-2.png" alt="">
+            <figcaption class="card_text">Бабочка растакая</figcaption>
           </figure>
-        </li>
-        <li class="portfolio_item">
+        </div>
+
+        <div class="card_content">
           <figure>
-            <img src="images/portfolio-4.png" alt="">
-            <figcaption>Кривая</figcaption>
+            <img class="card_visual" src="images/portfolio-3.png" alt="">
+            <figcaption class="card_text">Бабочка сякая</figcaption>
           </figure>
-        </li>
-      </ul>
-      <button class="portfolio_btn">Все бабочки</button>
+        </div>
+
+        <div class="card_content">
+          <figure>
+            <img class="card_visual" src="images/portfolio-4.png" alt="">
+            <figcaption class="card_text">Кривая</figcaption>
+          </figure>
+        </div>
+      </div>
+      <button class="portfolio_button">Все бабочки</button>
     </div>
   </section>
 
   <footer class="footer">
     <div class="footer_inner">
-      <a href="#" class="logo">Butterfly</a>
-      <ul class="footer_list">
-        <li class="footer_item">
-          <a href="#" class="phone_number">+7 812 800-80-80</a>
-        </li>
-        <li class="footer_item"></li>
-        <li class="footer_item"></li>
-        <li class="footer_item"></li>
-      </ul>
+      <div class="footer_row">
+        <a href="#" class="footer_logo">Butterfly</a>
+        <ul class="footer_list">
+          <li class="footer_item">
+            <a href="#" class="phone_number">+7 812 800-80-80</a>
+          </li>
+          <li class="footer_item">
+            <a href="#" class="social_icon" style="background-image: url('images/butterfly-icon-1.svg');"></a>
+          </li>
+          <li class="footer_item">
+            <a href="#" class="social_icon" style="background-image: url('images/butterfly-icon-2.svg');"></a>
+          </li>
+          <li class="footer_item">
+            <a href="#" class="social_icon" style="background-image: url('images/butterfly-icon-3.svg');"></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 
