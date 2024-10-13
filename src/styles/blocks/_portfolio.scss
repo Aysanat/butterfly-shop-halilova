@@ -4,6 +4,7 @@
 
 .portfolio_inner {
   margin: 0 auto;
+  width: 1278px;
 }
 
 .portfolio_title {
@@ -13,17 +14,23 @@
   line-height: 87px;
 }
 
-.portfolio_list {
-  list-style: none;
+.portfolio_cards {
   display: flex;
-  align-items: center;
   gap: 20px;
 }
 
-.portfolio_item {
+.card_content {
+
 }
 
-.portfolio_btn {
+.card_text {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.portfolio_button {
   font-family: Open Sans;
   font-size: 42px;
   font-weight: 400;
