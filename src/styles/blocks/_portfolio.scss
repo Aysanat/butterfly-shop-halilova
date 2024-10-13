@@ -8,6 +8,8 @@
 }
 
 .portfolio_title {
+  padding-top: 130px;
+  padding-bottom: 100px;
   font-family: Open Sans;
   font-size: 64px;
   font-weight: 400;
@@ -31,8 +33,15 @@
 }
 
 .portfolio_button {
+  padding: 30px 48px;
+  margin-top: 120px;
+  margin-bottom: 130px;
   font-family: Open Sans;
   font-size: 42px;
   font-weight: 400;
   line-height: 57px;
+  background-color: $color-bright;
+  color: $color-light;
+  border: 0;
+  border-radius: 6px;
 }
