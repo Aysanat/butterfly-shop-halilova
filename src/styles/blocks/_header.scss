@@ -37,3 +37,8 @@
   font-weight: 700;
   line-height: 24px;
 }
+
+.menu_item:hover {
+  border-top: 100%;
+  background-color: $color-bright;
+}
