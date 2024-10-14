@@ -21,6 +21,8 @@
 }
 
 .footer_logo {
+  margin-right: auto;
+  /*flex-basis: 100%;*/
   font-family: Open Sans;
   font-size: 42px;
   font-weight: 600;
@@ -28,6 +30,7 @@
 }
 
 .phone_number {
+  margin-right: 60px;
   font-family: Open Sans;
   font-size: 28px;
   font-weight: 400;

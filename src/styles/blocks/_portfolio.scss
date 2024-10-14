@@ -19,20 +19,28 @@
 .portfolio_cards {
   display: flex;
   gap: 20px;
+  background-color: $color-bg;
 }
 
 .card_content {
-
+  position: relative;
 }
 
 .card_text {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  padding: 15px 48px;
   font-family: Open Sans;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
+  background-color: rgba($color-black, .4);
+  color: $color-light;
 }
 
 .portfolio_button {
+  display: inline-block;
   padding: 30px 48px;
   margin-top: 120px;
   margin-bottom: 130px;
