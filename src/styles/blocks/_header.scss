@@ -1,5 +1,5 @@
 .header {
-  padding: 16px 0;
+  /*padding: 16px 0;*/
   color: $color-light;
   background-color: $color-dark;
 }
@@ -29,8 +29,12 @@
   line-height: 57px;
 }
 
+.menu_list {
+  gap: 10px;
+}
+
 .menu_item {
-  gap: 35px;
+  padding: 33px 25px;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
