@@ -15,8 +15,8 @@
 }
 
 .menu_list {
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   list-style: none;
 }
