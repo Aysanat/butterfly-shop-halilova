@@ -20,10 +20,18 @@
   gap: 20px;
 }
 
+.card_visual {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .card_content {
   position: relative;
   margin-bottom: 20px;
+  background-color: rgba($color-black, .4);
 }
 
 .card_text {
