@@ -1,4 +1,9 @@
 .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   /*padding: 16px 0;*/
   color: $color-light;
   background-color: $color-dark;
@@ -18,7 +23,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  list-style: none;
 }
 
 .logo {

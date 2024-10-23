@@ -1,5 +1,4 @@
 .order {
-  text-align: center;
   background-color: rgba($color-dark, .1);
 }
 
@@ -11,7 +10,7 @@
 .order_title {
   padding-top: 130px;
   margin-bottom: 40px;
-  font-weight: 400;
+  font-weight: $h2-fw;
   font-size: 64px;
   line-height: 87px;
 }

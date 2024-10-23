@@ -6,9 +6,15 @@
 
 body {
   font-family: $font;
+  text-align: center;
 }
 
 a {
   color: $color-light;
   text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
 }
