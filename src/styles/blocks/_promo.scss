@@ -1,18 +1,28 @@
 .promo {
+  padding: 290px 0 214px;
   color: $color-light;
   background-image: url("../images/butterfly-promo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  .promo_fade {
+    background-color: rgba($color-dark, .4);
+  }
+
+  @media (max-width: $tablet-max) {
+    padding: 180px 0 190px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 110px 0 100px;
+  }
 }
 
-.promo_fade {
-  background-color: rgba($color-dark, .4);
-}
+
 
 .promo_inner {
-  margin: 0 auto;
-  width: 1278px;
+  @include inner;
 
   /*@media (max-width: 1279px) {
     width: auto;
@@ -21,10 +31,20 @@
 }
 
 .promo_title {
-  padding-top: 290px;
+  /*padding-top: 290px;*/
   font-size: 72px;
   font-weight: $h1-fw;
   line-height: 98px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 64px;
+    line-height: 73px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 32px;
+    line-height: 43px;
+  }
 }
 
 /*.promo-ttl {

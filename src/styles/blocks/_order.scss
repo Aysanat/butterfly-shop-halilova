@@ -3,8 +3,7 @@
 }
 
 .order_inner {
-  margin: 0 auto;
-  width: 1278px;
+  @include inner;
 }
 
 .order_title {
@@ -13,6 +12,16 @@
   font-weight: $h2-fw;
   font-size: 64px;
   line-height: 87px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 81px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .order_text {
@@ -20,4 +29,9 @@
   font-size: 28px;
   font-weight: 400;
   line-height: 38px;
+
+  @media (max-width: $mobile-max) {
+    font-size: 18px;
+    line-height: 34px;
+  }
 }

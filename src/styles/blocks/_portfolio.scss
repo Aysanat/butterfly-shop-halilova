@@ -1,6 +1,5 @@
 .portfolio_inner {
-  margin: 0 auto;
-  width: 1278px;
+  @include inner;
 }
 
 .portfolio_title {
@@ -9,6 +8,16 @@
   font-size: 64px;
   font-weight: $h2-fw;
   line-height: 87px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 81px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .portfolio_cards {

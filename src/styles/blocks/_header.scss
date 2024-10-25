@@ -7,11 +7,14 @@
   /*padding: 16px 0;*/
   color: $color-light;
   background-color: $color-dark;
+
+  @media (max-width: $mobile-max) {
+    padding: 16px 0;
+  }
 }
 
 .header_inner {
-  margin: 0 auto;
-  width: 1278px;
+  @include inner;
 }
 
 .header_row {
@@ -23,6 +26,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+
+  @media (max-width: $mobile-max) {
+    display: none;
+  }
 }
 
 .logo {
@@ -31,6 +38,16 @@
   font-size: 42px;
   font-weight: 600;
   line-height: 57px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 38px;
+  }
 }
 
 .menu_item {

@@ -4,8 +4,7 @@
 }
 
 .footer_inner {
-  margin: 0 auto;
-  width: 1278px;
+  @include inner;
 }
 
 .footer_row {
