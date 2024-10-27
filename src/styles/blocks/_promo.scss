@@ -1,25 +1,14 @@
 .promo {
-  padding: 290px 0 214px;
   color: $color-light;
   background-image: url("../images/butterfly-promo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  .promo_fade {
-    background-color: rgba($color-dark, .4);
-  }
-
-  @media (max-width: $tablet-max) {
-    padding: 180px 0 190px;
-  }
-
-  @media (max-width: $mobile-max) {
-    padding: 110px 0 100px;
-  }
 }
 
-
+.promo_fade {
+  background-color: rgba($color-dark, .4);
+}
 
 .promo_inner {
   @include inner;

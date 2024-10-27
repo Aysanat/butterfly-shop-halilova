@@ -10,11 +10,15 @@
   line-height: 87px;
 
   @media (max-width: $tablet-max) {
+    padding-top: 120px;
+    margin-bottom: 80px;
     font-size: 60px;
     line-height: 81px;
   }
 
   @media (max-width: $mobile-max) {
+    padding-top: 90px;
+    margin-bottom: 60px;
     font-size: 36px;
     line-height: 49px;
   }
@@ -31,7 +35,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .card_content {
   position: relative;

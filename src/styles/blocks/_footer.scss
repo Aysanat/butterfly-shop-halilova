@@ -23,6 +23,11 @@
   font-size: 42px;
   font-weight: 600;
   line-height: 57px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .phone_number {
