@@ -8,18 +8,19 @@
 }
 
 .catalog_title {
+  margin-bottom: 77px;
   font-size: 64px;
   line-height: 87.16px;
 }
 
 .catalog_row {
-  display: flex;
-  align-items: center;
-  gap: 50px;
+  /*display: flex;
+  gap: 50px;*/
 }
 
 .catalog_list {
-  display: inline-block;
+  display: flex;
+  gap: 50px;
 }
 
 .catalog_item {
@@ -33,5 +34,29 @@
 }
 
 .catalog_link {
+  display: inline-block;
   color: $color-black;
+}
+
+.catalog_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.catalog_content {
+  flex-basis: 33.33%;
+  position: relative;
+}
+
+.catalog_text {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  font-size: 24px;
+  line-height: 32.68px;
+  text-align: center;
+  color: $color-light;
+  background-color: rgba($color-black, .4);
 }
