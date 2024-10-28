@@ -1,5 +1,6 @@
 .catalog {
   padding-top: 220px;
+  padding-bottom: 130px;
   color: $color-black;
 }
 
@@ -8,18 +9,17 @@
 }
 
 .catalog_title {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 77px;
   font-size: 64px;
   line-height: 87.16px;
 }
 
-.catalog_row {
-  /*display: flex;
-  gap: 50px;*/
-}
-
 .catalog_list {
-  display: flex;
+  margin-bottom: 40px;
+  display: inline-flex;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -30,7 +30,6 @@
   font-weight: 600;
   line-height: 24px;
   text-align: center;
-
 }
 
 .catalog_link {
@@ -38,14 +37,18 @@
   color: $color-black;
 }
 
+.catalog_link:hover {
+  color: $color-bright;
+}
+
 .catalog_cards {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .catalog_content {
-  flex-basis: 33.33%;
+  flex-basis: calc(25% - 60px / 3);
   position: relative;
 }
 
