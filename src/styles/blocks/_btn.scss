@@ -13,15 +13,20 @@
   border-radius: 6px;
   cursor: pointer;
 
+  @media (max-width: $tablet-max) {
+    width: 66.66%;
+  }
+
   @media (max-width: $mobile-max) {
+    width: 100%;
     font-size: 24px;
     line-height: 32px;
   }
 }
 
-/*.promo_btn {
+.promo_btn {
   padding-bottom: 214px;
-}*/
+}
 
 .portfolio_btn {
   padding-bottom: 130px;
