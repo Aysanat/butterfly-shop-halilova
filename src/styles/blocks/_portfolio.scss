@@ -25,12 +25,13 @@
 }
 
 .portfolio_cards {
+  margin-bottom: 20px;
   display: flex;
   gap: 20px;
 }
 
 .card_visual {
-  width: 100%;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,12 +39,21 @@
 
 .card_content {
   position: relative;
-  margin-bottom: 20px;
+  flex-basis: calc(25% - 60px / 3);
   background-color: rgba($color-black, .4);
+
+  @media (max-width: $tablet-max) {
+    flex-basis: calc(50% - 20px);
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-basis: 100%;
+  }
 }
 
 .card_text {
   bottom: 0;
+  left: 0;
   width: 100%;
   position: absolute;
   padding: 15px 48px;
@@ -52,4 +62,8 @@
   line-height: 32px;
   background-color: rgba($color-black, .4);
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    padding: 20px 78px;
+  }
 }

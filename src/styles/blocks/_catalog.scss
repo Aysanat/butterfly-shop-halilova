@@ -75,33 +75,3 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-
-.catalog_content {
-  flex-basis: calc(25% - 60px / 3);
-  position: relative;
-
-  @media (max-width: $tablet-max) {
-    flex-basis: calc(50% - 20px);
-  }
-
-  @media (max-width: $mobile-max) {
-    flex-basis: 100%;
-  }
-}
-
-.catalog_text {
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  padding: 15px 48px;
-  position: absolute;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: $color-light;
-  background-color: rgba($color-black, .4);
-
-  @media (max-width: $tablet-max) {
-    padding: 20px 78px;
-  }
-}
