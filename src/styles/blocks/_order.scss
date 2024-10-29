@@ -1,5 +1,17 @@
 .order {
+  padding-top: 130px;
+  padding-bottom: 130px;
   background-color: rgba($color-dark, .1);
+
+  @media (max-width: $tablet-max) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 
 .order_inner {
@@ -7,7 +19,6 @@
 }
 
 .order_title {
-  padding-top: 130px;
   margin-bottom: 40px;
   font-weight: $h2-fw;
   font-size: 64px;
@@ -19,6 +30,7 @@
   }
 
   @media (max-width: $mobile-max) {
+    margin-bottom: 20px;
     font-size: 36px;
     line-height: 49px;
   }
@@ -31,6 +43,7 @@
   line-height: 38px;
 
   @media (max-width: $mobile-max) {
+    padding-bottom: 60px;
     font-size: 18px;
     line-height: 34px;
   }

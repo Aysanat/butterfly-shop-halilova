@@ -18,9 +18,10 @@
 }
 
 .catalog_title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font;
   margin-bottom: 77px;
   font-size: 64px;
+  font-weight: $h2-fw;
   line-height: 87.16px;
 
   @media (max-width: $tablet-max) {

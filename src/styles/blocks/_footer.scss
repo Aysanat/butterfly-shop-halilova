@@ -10,6 +10,10 @@
 .footer_row {
   display: flex;
   align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+  }
 }
 
 .footer_list {
@@ -28,12 +32,23 @@
     font-size: 36px;
     line-height: 49px;
   }
+
+  @media (max-width: $mobile-max) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .phone_number {
+  display: inline-block;
   margin-right: 60px;
   font-size: 28px;
   line-height: 38px;
+
+  @media (max-width: $mobile-max) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
 
 .social_icon {

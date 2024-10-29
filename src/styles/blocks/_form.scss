@@ -8,18 +8,23 @@
   @media (max-width: $tablet-max) {
     flex-wrap: wrap;
   }
+
+  @media (max-width: $mobile-max) {
+    gap: 0;
+  }
 }
 
 .form_field {
   flex-basis: 33.33%;
   display: block;
-  margin-bottom: 130px;
 
   @media (max-width: $tablet-max) {
+    margin-bottom: 40px;
     flex-basis: calc(50% - 10px);
   }
 
   @media (max-width: $mobile-max) {
+    margin-bottom: 30px;
     flex-basis: 100%;
   }
 }
@@ -30,6 +35,10 @@
     display: block;
     padding-bottom: 8px;
     height: 27px;
+
+    @media (max-width: $tablet-max) {
+      content: none;
+    }
   }
 
   @media (max-width: $tablet-max) {
