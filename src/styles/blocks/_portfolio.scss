@@ -25,9 +25,17 @@
 }
 
 .portfolio_cards {
-  margin-bottom: 20px;
+  margin-bottom: 120px;
   display: flex;
   gap: 20px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+  }
 }
 
 .card_visual {
