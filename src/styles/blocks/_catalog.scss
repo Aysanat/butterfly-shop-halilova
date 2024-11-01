@@ -35,6 +35,18 @@
   }
 }
 
+.catalog_cards {
+  margin-bottom: 120px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+  }
+}
+
 .catalog_list {
   margin-bottom: 40px;
   display: inline-flex;
@@ -43,11 +55,12 @@
 
   @media (max-width: $tablet-max) {
     flex-wrap: nowrap;
-    align-content: stretch;
+    align-items: center;
     gap: 30px;
   }
 
   @media (max-width: $mobile-max) {
+    overflow: auto;
     margin-bottom: 30px;
     gap: 20px;
   }
