@@ -18,9 +18,10 @@ $color-bright: #FF2D2D;
 // indents
 
 // breakpoints
-$desctop: 1280px;
-$tablet: 768px;
-$mobile: 320px;
 
-$tablet-max: $desctop - 1px;
+$mobile: 320px;
+$tablet: 768px;
+$desctop: 1280px;
+
 $mobile-max: $tablet - 1px;
+$tablet-max: $desctop - 1px;

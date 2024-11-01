@@ -27,8 +27,17 @@
   padding-bottom: 214px;
 }*/
 
-.portfolio_btn {
-  padding-bottom: 130px;
+.portfolio_btn,
+.catalog_btn {
+  margin-top: 120px;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 80px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: 60px;
+  }
 }
 
 .form_btn {
