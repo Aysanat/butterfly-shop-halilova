@@ -36,6 +36,7 @@
 .portfolio_cards {
   margin-bottom: 120px;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 
   @media (max-width: $tablet-max) {
