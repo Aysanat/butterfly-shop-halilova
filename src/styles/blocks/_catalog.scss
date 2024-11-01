@@ -37,6 +37,9 @@
 
 .catalog_cards {
   margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 
   @media (max-width: $tablet-max) {
     margin-bottom: 80px;
@@ -82,10 +85,4 @@
 
 .catalog_link:hover {
   color: $color-bright;
-}
-
-.catalog_cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
