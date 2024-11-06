@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.menu_list {
+/*.menu_list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -30,7 +30,7 @@
   @media (max-width: $mobile-max) {
     display: none;
   }
-}
+}*/
 
 .logo {
   margin-right: auto;
@@ -50,13 +50,13 @@
   }
 }
 
-.menu_item {
+/*.menu_item {
   padding: 33px 25px;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-}
+}*/
 
-.menu_item:hover {
+/*.menu_item:hover {
   background-color: $color-bright;
-}
+}*/
