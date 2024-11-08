@@ -1,0 +1,27 @@
+.accordion {
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  border: 1px solid rgba($color-bright, .2);
+  border-radius: 4px;
+}
+
+.accordion_btn {
+  width: 100%;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 49px;
+  text-align: left;
+  color: $color-dark;
+  background-color: $color-light;
+  border: none;
+}
+
+.accordion_answer {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+}
