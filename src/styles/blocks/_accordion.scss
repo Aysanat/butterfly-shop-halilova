@@ -7,12 +7,11 @@
 
 .accordion_btn {
   width: 100%;
-  display: inline-block;
+  display: flex;
   font-family: 'Open Sans', sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 49px;
-  text-align: left;
   color: $color-dark;
   background-color: $color-light;
   border: none;
@@ -24,4 +23,34 @@
   font-weight: 300;
   line-height: 24px;
   text-align: left;
+}
+
+.accordion_icon {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+
+  &::before,
+  &::after {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    background-color: $color-bright;
+  }
+
+  &::before {
+    width: 40px;
+    height: 2px;
+  }
+
+  &::after {
+    width: 2px;
+    height: 40px;
+  }
 }
