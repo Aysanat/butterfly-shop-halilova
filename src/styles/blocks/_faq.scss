@@ -1,0 +1,16 @@
+.faq {
+  padding: 210px 0 130px;
+}
+
+.faq_inner {
+  @include inner;
+}
+
+.faq_title {
+  font-family: Open Sans;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 87px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
