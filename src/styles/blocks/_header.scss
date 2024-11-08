@@ -62,5 +62,35 @@
 }*/
 
 .header_burger {
-  display: none;
+  @media (min-width: $desctop) {
+    display: none;
+  }
+
+  @media (min-width: $tablet) {
+    display: none;
+  }
+
+  @media (max-width: $mobile-max) {
+    width: 30px;
+    height: 30px;
+    border-top: 3.33px solid $color-light;
+    border-bottom: 3.33px solid $color-light;
+    border-right: none;
+    border-left: none;
+    background-color: inherit;
+  }
+
+  /*.header_icon {
+    position: relative;
+    display: block;
+    width: 100%;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 3.33px;
+      background-color: $color-light;
+    }
+  }*/
 }
