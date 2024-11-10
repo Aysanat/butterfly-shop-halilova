@@ -16,6 +16,13 @@
   color: $color-dark;
   background-color: $color-light;
   border: none;
+  cursor: pointer;
+
+  &.open {
+    .accordion_icon::after {
+      opacity: 0;
+    }
+  }
 }
 
 .accordion_answer {
