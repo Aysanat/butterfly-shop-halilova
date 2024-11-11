@@ -16,7 +16,7 @@ $(document).ready(function() {
     }
 
     $(prevAccordionBtn).removeClass(openClass);
-    $(prevAccordionBtn).next().slideUp;
+    $(prevAccordionBtn).next().slideUp();
 
     $(this).addClass(openClass)
     $(this).next().slideDown();
