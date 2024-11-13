@@ -24,4 +24,8 @@ $(document).ready(function() {
     prevAccordionBtn = this;
   });
 
+  $(document).ready(function() {
+    $('.carousel').slick()
+  })
+
 });
