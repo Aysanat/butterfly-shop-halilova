@@ -1,0 +1,19 @@
+.tabs_list {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.tabs_link {
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba($color-dark, .8);
+
+  &.active {
+    color: $color-bright;
+  }
+}

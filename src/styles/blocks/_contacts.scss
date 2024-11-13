@@ -1,0 +1,15 @@
+.contacts {
+  padding: 220px 0 130px;
+}
+
+.contacts_inner {
+  @include inner
+}
+
+.contacts_title {
+  margin-bottom: 82px;
+  font-family: Open Sans;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 81px;
+}
