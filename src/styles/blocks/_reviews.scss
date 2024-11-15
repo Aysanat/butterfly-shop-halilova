@@ -13,3 +13,46 @@
   font-weight: 400;
   line-height: 87px;
 }
+
+.reviews_carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reviews_user {
+  margin-right: 128px;
+  margin-left: 128px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 22px;
+}
+
+.reviews_ava {
+  width: 304px;
+  height: 304px;
+  display: inline-block;
+}
+
+.reviews_text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  text-align: left;
+}
+
+.reviews_name {
+  font-family: Open Sans;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+}
+
+.reviews_quote {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}

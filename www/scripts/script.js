@@ -67,7 +67,9 @@ $(document).ready(function() {
   });
 
   $(document).ready(function() {
-    $('.carousel').slick()
+    $('.reviews_carousel').slick()
   });
+
+  $('button .slick-prev').text()
 
 });
