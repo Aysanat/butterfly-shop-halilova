@@ -51,9 +51,9 @@ $(document).ready(function() {
       $(this).hide();
     })
 
-  })
+  });
 
-  $('js-tab-link').on('click', function(event) {
+  $('.js-tab-link').on('click', function(event) {
     event.preventDefault();
 
     $('.js-tab-link').removeClass('active');
@@ -64,10 +64,10 @@ $(document).ready(function() {
     $('.js-contacts-tab').removeClass('active');
     $('.js-contacts-tab').eq(index).addClass('active');
 
-  })
+  });
 
   $(document).ready(function() {
     $('.carousel').slick()
-  })
+  });
 
 });

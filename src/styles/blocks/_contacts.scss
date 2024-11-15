@@ -13,3 +13,11 @@
   font-weight: 400;
   line-height: 81px;
 }
+
+.contacts_tab {
+ display: none;
+
+ &.active {
+  display: block;
+ }
+}
