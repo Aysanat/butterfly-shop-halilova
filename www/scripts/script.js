@@ -53,6 +53,19 @@ $(document).ready(function() {
 
   })
 
+  $('js-tab-link').on('click', function(event) {
+    event.preventDefault();
+
+    $('.js-tab-link').removeClass('active');
+    $(this).addClass('active');
+
+    let index = $(this).index('.js-tab-link');
+
+    $('.js-contacts-tab').removeClass('active');
+    $('.js-contacts-tab').eq(index).addClass('active');
+
+  })
+
   $(document).ready(function() {
     $('.carousel').slick()
   })
