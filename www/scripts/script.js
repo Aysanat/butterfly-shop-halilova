@@ -24,6 +24,35 @@ $(document).ready(function() {
     prevAccordionBtn = this;
   });
 
+  $('.js-catalog-filter').on('click', function(event) {
+    event.preventDefault();
+
+    $('.js-catalog-filter').removeClass('active');
+    $(this).addClass('active');
+
+    let filter = $(this).data('filter');
+
+    if (filter === 'all') {
+      $('.js-card-type').show();
+
+      return;
+    }
+
+
+    $('.js-card-type').each(function() {
+      let type = $(this).data('type');
+
+      if (filter === type) {
+        $(this).show();
+
+        return;
+      }
+
+      $(this).hide();
+    })
+
+  })
+
   $(document).ready(function() {
     $('.carousel').slick()
   })
