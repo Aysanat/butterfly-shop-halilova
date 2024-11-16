@@ -70,6 +70,4 @@ $(document).ready(function() {
     $('.reviews_carousel').slick()
   });
 
-  $('button .slick-prev').text()
-
 });

@@ -1,5 +1,13 @@
 .contacts {
   padding: 220px 0 130px;
+
+  @media (max-width: $tablet-max) {
+    padding: 210px 0 120px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 160px 0 90px;
+  }
 }
 
 .contacts_inner {
@@ -12,12 +20,26 @@
   font-size: 60px;
   font-weight: 400;
   line-height: 81px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .contacts_tab {
  display: none;
 
  &.active {
-  display: block;
- }
+    display: block;
+  }
+
+ @media (max-width: $mobile-max) {
+   overflow: auto;
+  }
 }

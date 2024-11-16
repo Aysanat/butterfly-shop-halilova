@@ -1,9 +1,21 @@
 .tabs_list {
   margin-bottom: 40px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   column-gap: 50px;
+
+  @media (min-width: $tablet) {
+    justify-content: center;
+  }
+
+  @media (max-width: $mobile-max) {
+    overflow: auto;
+  }
+}
+
+.tabs_item {
+  flex-shrink: 0;
 }
 
 .tabs_link {
