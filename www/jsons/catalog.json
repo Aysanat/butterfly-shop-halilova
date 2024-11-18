@@ -1,0 +1,23 @@
+{
+  "catalog": [
+    {
+      "imgSrc": "images/portfolio-1.png",
+      "text": "Бабочка такая"
+    },
+
+    {
+      "imgSrc": "images/portfolio-2.png",
+      "text": "Бабочка растакая"
+    },
+
+    {
+      "imgSrc": "images/portfolio-3.png",
+      "text": "Бабочка сякая"
+    },
+
+    {
+      "imgSrc": "images/portfolio-4.png",
+      "text": "Кривая"
+    }
+  ]
+}

@@ -70,4 +70,43 @@ $(document).ready(function() {
     $('.reviews_carousel').slick()
   });
 
+  $('.js-catalog-more').on('click', function() {
+
+    let btn = this;
+
+    $(btn).attr('disabled', 'disabled')
+
+    $.ajax({
+      type: 'POST',
+      url: '../jsons/catalog.json',
+      data: {
+        quantity: 4
+      },
+
+      success: function(res) {
+        let catalogHtmlString = createCatalogHtml(res.catalog)
+        console.log(catalogHtmlString);
+
+        $('.js-catalog-list').append(catalogHtmlString);
+        $(btn).removeAttr('disabled')
+      },
+      error: function() {
+        console.log('error');
+      }
+    });
+  });
+
+  function createCatalogHtml(catalogArray) {
+    let result = ''
+
+    catalogArray.forEach(function(card) {
+      result += `<div class="card_content js-card-type" data-type="strict">
+            <img src="${card.imgSrc}" alt="" class="card_visual">
+            <p class="${card.text}">Бабочка такая</p>
+          </div>`
+    })
+
+    return result;
+  }
+
 });
