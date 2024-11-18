@@ -100,9 +100,9 @@ $(document).ready(function() {
     let result = ''
 
     catalogArray.forEach(function(card) {
-      result += `<div class="card_content js-card-type" data-type="strict">
+      result += `<div class="card_content js-card-type" data-type="${card.dataType}">
             <img src="${card.imgSrc}" alt="" class="card_visual">
-            <p class="${card.text}">Бабочка такая</p>
+            <p class="card_text">"${card.text}"</p>
           </div>`
     })
 

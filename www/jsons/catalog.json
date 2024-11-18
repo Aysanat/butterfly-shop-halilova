@@ -2,21 +2,22 @@
   "catalog": [
     {
       "imgSrc": "images/portfolio-1.png",
+      "dataType": "strict",
       "text": "Бабочка такая"
     },
-
     {
       "imgSrc": "images/portfolio-2.png",
+      "dataType": "funnyt",
       "text": "Бабочка растакая"
     },
-
     {
       "imgSrc": "images/portfolio-3.png",
+      "dataType": "adult",
       "text": "Бабочка сякая"
     },
-
     {
       "imgSrc": "images/portfolio-4.png",
+      "dataType": "animal",
       "text": "Кривая"
     }
   ]
