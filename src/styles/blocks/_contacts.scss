@@ -44,6 +44,15 @@
   display: flex;
   column-gap: 145px;
   justify-content: center;
+
+  @media (max-width: $tablet-max) {
+    column-gap: 21px;
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+    row-gap: 10px;
+  }
 }
 
 .contacts_info {
@@ -54,6 +63,17 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 32.68px;
+  text-align: left;
+
+  @media (max-width: $tablet-max) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (max-width: $tablet-max) {
+    row-gap: 5px;
+    font-size: 16px;
+  }
 }
 
 .contacts_phone a {

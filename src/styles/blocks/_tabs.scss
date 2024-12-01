@@ -11,7 +11,8 @@
   }
 
   @media (max-width: $mobile-max) {
-    overflow: auto;
+    margin-bottom: 30px;
+    overflow-x: scroll;
   }
 }
 
