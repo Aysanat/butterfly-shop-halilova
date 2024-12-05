@@ -109,4 +109,15 @@ $(document).ready(function() {
     return result;
   }
 
+  $('.js-btn-scroll').on('click', function() {
+
+    $('html, body').animate({
+      scrollTop: $('#order-scroll').offset().top
+    }, {
+      duration: 370,
+      easing: 'linear'
+    });
+
+    return;
+  })
 });
